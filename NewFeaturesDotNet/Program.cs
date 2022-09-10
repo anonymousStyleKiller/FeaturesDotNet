@@ -1,3 +1,7 @@
 ﻿using NewFeaturesDotNet;
 
-IndexOfArray.Init();
+PatternMatching.IsSpecificTriangle(new Triangel
+{
+    Base = 3, 
+    Height = 3
+});
