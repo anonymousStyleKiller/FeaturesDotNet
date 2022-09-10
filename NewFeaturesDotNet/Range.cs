@@ -1,12 +1,12 @@
 ﻿namespace NewFeaturesDotNet;
 
-public static class IndexOfArray
+public class Range
 {
-    public static void Init()
+    public void Init()
     {
         var arr = new[] { 1, 3, 5 };
         // create allocation
-        var last = arr[^1];
+        var range = arr[1..];
     }
 
 }
