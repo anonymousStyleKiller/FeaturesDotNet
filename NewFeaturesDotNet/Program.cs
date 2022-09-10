@@ -2,6 +2,6 @@
 
 PatternMatching.IsSpecificTriangle(new Triangel
 {
-    Base = 3, 
-    Height = 3
+    Base = 8, 
+    Height = 8
 });

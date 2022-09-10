@@ -8,6 +8,22 @@ public static class PatternMatching
         {
             Console.WriteLine();
         }    
+        
+        
+        if (triangel is Triangel { Name: var x } tri2)
+        {
+            Console.WriteLine();
+        }   
+    }
+
+
+    public static string ReturnDesc(string shape, int length)
+    {
+        return (shape, length) switch
+        {
+            ("Rect", 1) => "This is test",
+            (_, _) => "Default",
+        };
     }
 }
 
@@ -15,5 +31,8 @@ public class Triangel
 {
     public int Base { get; set; }
     public int Height { get; set; }
+    public object Name { get; set; }
 }
+
+
 
