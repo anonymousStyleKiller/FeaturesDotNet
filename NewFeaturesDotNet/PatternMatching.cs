@@ -34,5 +34,14 @@ public class Triangel
     public object Name { get; set; }
 }
 
+public class Test
+{
+    public void TestMethod()
+    {
+        int[] one = { 1 };
+        Console.WriteLine(one is [1]);
+    }
+}
+
 
 
